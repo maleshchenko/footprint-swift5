@@ -1,3 +1,5 @@
+Migrated to Swift 5
+
 # Footprint: Indoor Location with Core Location
 
 Display device location against a custom floorplan PDF.
@@ -53,16 +55,3 @@ Step \#2: Look for the `GeoAnchorPair` struct in `ViewController.m` `viewDidLoad
 Step \#3: Follow the code comments of `drawDiagnosticVisuals` in `FloorplanOverlayRenderer.m` to verify that your (x,y) values from Step \#2 are correct.
 
 Step \#4: Follow the code comments of `setDebuggingAnnotationsOfMapView`: in `ViewController.m` to verify that your (Latitude/Longitude) values from Step \#2 are correct.
-
-## Requirements
-
-### Build
-
-Xcode 8.0, iOS 9 or later
-
-### Runtime
-
-Xcode 8.0 Simulator (OS X 10.10.3)
-iOS 9 or later
-
-Copyright (C) 2014-2015 Apple Inc. All rights reserved.
