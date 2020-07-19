@@ -1,5 +1,7 @@
 Migrated to Swift 5
 
+Uses Core Location to take a Latitude/Longitude position and project it onto a flat floorplan. Demonstrates how to do the conversions between a Latitude/Longitude location and a floorplan PDF coordinate system (x, y). You provide a map image for a building and specify two coordinates manually. Then, using CoreLocation, it is converting latitude/longitute into (x,y) position
+
 # Footprint: Indoor Location with Core Location
 
 Display device location against a custom floorplan PDF.
